@@ -14,10 +14,10 @@
 
 Exercícios resolvidos no Leetcode:
 
-| Exercício                                                                                                       | Juiz Online                       |           Autor da Resolução            |
-| --------------------------------------------------------------------------------------------------------------- | --------------------------------- | :-------------------------------------: |
-| [1340 - Jump Game V](https://leetcode.com/problems/jump-game-v/)                   | [Leetcode](https://leetcode.com/) | [Arthur](https://github.com/arthurmlv)  |
-
+| Exercício                                                                                     | Juiz Online                       |           Autor da Resolução            |
+| --------------------------------------------------------------------------------------------- | --------------------------------- | :-------------------------------------: |
+| [1340 - Jump Game V](https://leetcode.com/problems/jump-game-v/)                              | [Leetcode](https://leetcode.com/) | [Arthur](https://github.com/arthurmlv)  |
+| [132 - Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/) | [Leetcode](https://leetcode.com/) | [Matheus](https://github.com/mathonaut) |
 
 ## Screenshots
 
@@ -30,7 +30,12 @@ Para resolver este exercício, fez-se o uso de um vetor memoization e da lógica
 ![Imagem jump5](assets/jump5enun.png)
 ![Imagem jump5ac](assets/jump5.png)
 
+### 132 - Palindrome Partitioning II
 
+Para se resolver este exercício, foi utilizado a lógica do algoritmo da agendamento de intervalos com pesos. Foi utilizado um função para tratar o memoization e chamadas recursivas para se determinar a quantidade necessária de cortes de uma string dada para se formar um palíndromo. A solução é encontrada percorrendo toda a string e realizando cortes com o auxílio da técnica de memoization, tentando sempre em minimizar a quantidade de corte.
+
+![Imagem do enunciado do problema 132 Palindrome Partitioning II](assets/132/enunciado132.png)
+![Imagem da solução aceita para o problema 132](assets/132/132.png)
 
 ## Instalação
 
