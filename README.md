@@ -37,6 +37,13 @@ Para se resolver este exercício, foi utilizado a lógica do algoritmo da agenda
 ![Imagem do enunciado do problema 132 Palindrome Partitioning II](assets/132/enunciado132.png)
 ![Imagem da solução aceita para o problema 132](assets/132/132.png)
 
+### 174 - Dungeon Game
+
+Para se resolver este exercício, foi utilizado a lógica do algoritmo de menor caminho (_Bellman-Ford_). A solução foi alcançada seguindo um processo semelhante ao algoritmo original, porém sem a exigência da matriz de sucessores. Essa solução utilizou uma travessia inversa da matriz, mantendo, a busca pelo caminho de menor custo, no caso, menor vida inicial.
+
+![Imagem do enunciado do problema 174 Dungeon Game](assets/174/enunciado74.png)
+![Imagem da solução aceita para o problema 174](assets/174/174.png)
+
 ## Instalação
 
 **Linguagens**: C e Python<br>
