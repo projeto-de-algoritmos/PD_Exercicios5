@@ -1,7 +1,7 @@
 # Exercicios5
 
 **Número da Lista**: 5<br>
-**Conteúdo da Disciplina**: Memoization, <br>
+**Conteúdo da Disciplina**: Bellman Ford, Maior Subsequência e Weighted Interval Scheduling <br>
 
 ## Alunos
 
@@ -17,6 +17,7 @@ Exercícios resolvidos no Leetcode:
 | Exercício                                                                                     | Juiz Online                       |           Autor da Resolução            |
 | --------------------------------------------------------------------------------------------- | --------------------------------- | :-------------------------------------: |
 | [1340 - Jump Game V](https://leetcode.com/problems/jump-game-v/)                              | [Leetcode](https://leetcode.com/) | [Arthur](https://github.com/arthurmlv)  |
+| [1955 - Count Number of Special Subsequences](https://leetcode.com/problems/count-number-of-special-subsequences/)     | [Leetcode](https://leetcode.com/) | [Arthur](https://github.com/arthurmlv)  |
 | [132 - Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/) | [Leetcode](https://leetcode.com/) | [Matheus](https://github.com/mathonaut) |
 | [174 - Dungeon Game](https://leetcode.com/problems/dungeon-game/)                             | [Leetcode](https://leetcode.com/) | [Matheus](https://github.com/mathonaut) |
 
@@ -30,6 +31,13 @@ Para resolver este exercício, fez-se o uso de um vetor memoization e da lógica
 
 ![Imagem jump5](assets/jump5enun.png)
 ![Imagem jump5ac](assets/jump5.png)
+
+### 1955 - Count Number of Special Subsequences (Hard)
+
+A resolução deste exercício foi feita pela luz da lógica do algorítmo de maior subsequência crescente. Para tal, deve-se analisar todas as subsequências crescentes em um vetor que possui apenas os números 0, 1 e 2. No entanto, utilizou-se de uma matriz 2D para guardar o resultado da quantidade de subsequências para cada índice e valor. Desta forma, caso já exista uma resposta, o cálculo que já foi feito é reutilizado nas demais chamadas recursivas.
+
+![Imagem 1955](assets/1955enun.png)
+![Imagem 1955ac](assets/1955.png)
 
 ### 132 - Palindrome Partitioning II
 
