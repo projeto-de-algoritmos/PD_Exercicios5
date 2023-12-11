@@ -1,6 +1,5 @@
 import math
 
-
 class Solution:
     def calculateMinimumHP(self, dungeon: List[List[int]]) -> int:
         # Pegando qtd de linhas e colunas.

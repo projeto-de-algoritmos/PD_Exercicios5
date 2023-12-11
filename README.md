@@ -18,6 +18,7 @@ Exercícios resolvidos no Leetcode:
 | --------------------------------------------------------------------------------------------- | --------------------------------- | :-------------------------------------: |
 | [1340 - Jump Game V](https://leetcode.com/problems/jump-game-v/)                              | [Leetcode](https://leetcode.com/) | [Arthur](https://github.com/arthurmlv)  |
 | [132 - Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/) | [Leetcode](https://leetcode.com/) | [Matheus](https://github.com/mathonaut) |
+| [174 - Dungeon Game](https://leetcode.com/problems/dungeon-game/)                             | [Leetcode](https://leetcode.com/) | [Matheus](https://github.com/mathonaut) |
 
 ## Screenshots
 
@@ -41,7 +42,7 @@ Para se resolver este exercício, foi utilizado a lógica do algoritmo da agenda
 
 Para se resolver este exercício, foi utilizado a lógica do algoritmo de menor caminho (_Bellman-Ford_). A solução foi alcançada seguindo um processo semelhante ao algoritmo original, porém sem a exigência da matriz de sucessores. Essa solução utilizou uma travessia inversa da matriz, mantendo, a busca pelo caminho de menor custo, no caso, menor vida inicial.
 
-![Imagem do enunciado do problema 174 Dungeon Game](assets/174/enunciado74.png)
+![Imagem do enunciado do problema 174 Dungeon Game](assets/174/enunciado174.png)
 ![Imagem da solução aceita para o problema 174](assets/174/174.png)
 
 ## Instalação
