@@ -1,7 +1,7 @@
 # Exercicios5
 
 **Número da Lista**: 5<br>
-**Conteúdo da Disciplina**: Bellman Ford, Maior Subsequência e Weighted Interval Scheduling <br>
+**Conteúdo da Disciplina**: Bellman Ford, Maior Subsequência, Knapsack PD e Weighted Interval Scheduling <br>
 
 ## Alunos
 
@@ -18,6 +18,7 @@ Exercícios resolvidos no Leetcode:
 | ------------------------------------------------------------------------------------------------------------------ | --------------------------------- | :-------------------------------------: |
 | [1340 - Jump Game V](https://leetcode.com/problems/jump-game-v/)                                                   | [Leetcode](https://leetcode.com/) | [Arthur](https://github.com/arthurmlv)  |
 | [1955 - Count Number of Special Subsequences](https://leetcode.com/problems/count-number-of-special-subsequences/) | [Leetcode](https://leetcode.com/) | [Arthur](https://github.com/arthurmlv)  |
+| [1458 - Max Dot Product of Two Subsequences](https://leetcode.com/problems/max-dot-product-of-two-subsequences/)   | [Leetcode](https://leetcode.com/) | [Arthur](https://github.com/arthurmlv)  |
 | [132 - Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/)                      | [Leetcode](https://leetcode.com/) | [Matheus](https://github.com/mathonaut) |
 | [174 - Dungeon Game](https://leetcode.com/problems/dungeon-game/)                                                  | [Leetcode](https://leetcode.com/) | [Matheus](https://github.com/mathonaut) |
 | [354 - Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/)                              | [Leetcode](https://leetcode.com/) | [Matheus](https://github.com/mathonaut) |
@@ -39,6 +40,13 @@ A resolução deste exercício foi feita pela luz da lógica do algorítmo de ma
 
 ![Imagem 1955](assets/1955enun.png)
 ![Imagem 1955ac](assets/1955.png)
+
+### 1458 - Max Dot Product of Two Subsequences
+
+A solução aqui desenvolvida para este exercício se trata de uma adaptação da lógica do algoritmo da mochila com números indivisíveis. Contudo, o exercício pede o maior valor que pode ser encontrado pela multiplicação pontual de duas subsequências dentro de um array fornecido. Para isso, deve-se analisar a multiplicação dos valores atuais A e B e se os demais valores serão escolhidos ou não, de A com todos os valores do segundo vetor e de B com todos os valores do primeiro vetor. Por fim, deve-se considerar o auxílio do vetor memoization. O valor máximo será a maior multiplicação pontual ótima de duas subsequências.
+
+![Imagem 1458](assets/1458enun.png)
+![Imagem 1458ac](assets/1458.png)
 
 ### 132 - Palindrome Partitioning II
 
