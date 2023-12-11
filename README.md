@@ -14,12 +14,13 @@
 
 Exercícios resolvidos no Leetcode:
 
-| Exercício                                                                                     | Juiz Online                       |           Autor da Resolução            |
-| --------------------------------------------------------------------------------------------- | --------------------------------- | :-------------------------------------: |
-| [1340 - Jump Game V](https://leetcode.com/problems/jump-game-v/)                              | [Leetcode](https://leetcode.com/) | [Arthur](https://github.com/arthurmlv)  |
-| [1955 - Count Number of Special Subsequences](https://leetcode.com/problems/count-number-of-special-subsequences/)     | [Leetcode](https://leetcode.com/) | [Arthur](https://github.com/arthurmlv)  |
-| [132 - Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/) | [Leetcode](https://leetcode.com/) | [Matheus](https://github.com/mathonaut) |
-| [174 - Dungeon Game](https://leetcode.com/problems/dungeon-game/)                             | [Leetcode](https://leetcode.com/) | [Matheus](https://github.com/mathonaut) |
+| Exercício                                                                                                          | Juiz Online                       |           Autor da Resolução            |
+| ------------------------------------------------------------------------------------------------------------------ | --------------------------------- | :-------------------------------------: |
+| [1340 - Jump Game V](https://leetcode.com/problems/jump-game-v/)                                                   | [Leetcode](https://leetcode.com/) | [Arthur](https://github.com/arthurmlv)  |
+| [1955 - Count Number of Special Subsequences](https://leetcode.com/problems/count-number-of-special-subsequences/) | [Leetcode](https://leetcode.com/) | [Arthur](https://github.com/arthurmlv)  |
+| [132 - Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/)                      | [Leetcode](https://leetcode.com/) | [Matheus](https://github.com/mathonaut) |
+| [174 - Dungeon Game](https://leetcode.com/problems/dungeon-game/)                                                  | [Leetcode](https://leetcode.com/) | [Matheus](https://github.com/mathonaut) |
+| [354 - Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/)                              | [Leetcode](https://leetcode.com/) | [Matheus](https://github.com/mathonaut) |
 
 ## Screenshots
 
@@ -52,6 +53,13 @@ Para se resolver este exercício, foi utilizado a lógica do algoritmo de menor 
 
 ![Imagem do enunciado do problema 174 Dungeon Game](assets/174/enunciado174.png)
 ![Imagem da solução aceita para o problema 174](assets/174/174.png)
+
+### 354 - Russian Doll Envelopes
+
+Para se resolver este exercício, foi utilizado a lógica do algoritmo de maior subsequência crescente.
+
+![Imagem do enunciado do problema 354 Russian Doll Envelopes](assets/354/enunciado354.png)
+![Imagem da solução aceita para o problema 354](assets/354/354.png)
 
 ## Instalação
 
