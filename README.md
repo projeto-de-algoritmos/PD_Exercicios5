@@ -56,7 +56,7 @@ Para se resolver este exercício, foi utilizado a lógica do algoritmo de menor 
 
 ### 354 - Russian Doll Envelopes
 
-Para se resolver este exercício, foi utilizado a lógica do algoritmo de maior subsequência crescente.
+Para se resolver este exercício, foi utilizado a lógica do algoritmo de maior subsequência crescente. O algoritmo foi modificado para se usar somente o vetor de predecessores, pois não é necessário retornar a sequência somente o seu tamanho. Além disso, o vetor que representa a sequência foi ordenado e realizada uma busca binária para se determinar a quantidade de envelopes.
 
 ![Imagem do enunciado do problema 354 Russian Doll Envelopes](assets/354/enunciado354.png)
 ![Imagem da solução aceita para o problema 354](assets/354/354.png)
