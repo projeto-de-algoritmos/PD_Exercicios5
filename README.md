@@ -43,7 +43,7 @@ A resolução deste exercício foi feita pela luz da lógica do algorítmo de ma
 
 ### 1458 - Max Dot Product of Two Subsequences
 
-A solução aqui desenvolvida para este exercício se trata de uma adaptação da lógica do algoritmo da mochila com números indivisíveis. Contudo, o exercício pede o maior valor que pode ser encontrado pela multiplicação pontual de duas subsequências dentro de um array fornecido. Para isso, deve-se analisar a multiplicação dos valores atuais A e B e se os demais valores serão escolhidos ou não, de A com todos os valores do segundo vetor e de B com todos os valores do primeiro vetor. Por fim, deve-se considerar o auxílio do vetor memoization. O valor máximo será a maior multiplicação pontual ótima de duas subsequências.
+A solução aqui desenvolvida para este exercício se trata de uma adaptação da lógica do algoritmo da mochila com números indivisíveis. Contudo, o exercício pede o maior valor que pode ser encontrado pela multiplicação pontual de duas subsequências dentro de dois arrays fornecidos. Para isso, deve-se analisar a multiplicação dos valores atuais A e B e se os demais valores serão escolhidos ou não, de A com todos os valores do segundo vetor e de B com todos os valores do primeiro vetor. Por fim, deve-se considerar o auxílio do vetor memoization. O valor máximo será a maior multiplicação pontual ótima de duas subsequências.
 
 ![Imagem 1458](assets/1458enun.png)
 ![Imagem 1458ac](assets/1458.png)
@@ -85,6 +85,6 @@ Para os códigos em Python, basta digitar `python nome-do-arquivo.py` no termina
 
 ## Vídeo
 
-Para acessar o vídeo explicativo sobre os exercícios, [clique aqui](https://www.youtube.com/embed/).
+Para acessar o vídeo explicativo sobre os exercícios, [clique aqui](https://www.youtube.com/embed/ySdNnilVGGI).
 
 Para baixar o vídeo, [clique aqui](apresentacao.mp4).
