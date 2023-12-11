@@ -6,16 +6,16 @@ class Solution:
         MSC = 0     # Inicializa o tamanho da maior subsequencia
         # Inicializando o vetor de predecessor
         n = len(envelopes)
-        pre = [1]*n
+        pre = [0]*n
         
         # Calculando as maiores subsequencias
         # Percorre o vetor pela altura e realiza uma busca biaria para encontrar altura ideal
         for _, altura in envelopes:
             e, d = 0, MSC
-            while e <= d:
+            while e < d:
                 m = (e+d)//2
-                if(pre[m] > altura): # Checando se altura eh menor que a do meio
-                    d = m - 1
+                if(pre[m] >= altura): # Checando se altura eh menor que a do meio
+                    d = m
                 else:
                     e = m + 1
 
